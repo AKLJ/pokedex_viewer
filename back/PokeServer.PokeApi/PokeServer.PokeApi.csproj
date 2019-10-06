@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PokeServer.Models\PokeServer.Models.csproj" />
+    <ProjectReference Include="..\PokeServer.Services\PokeServer.Services.csproj" />
+  </ItemGroup>
+
+</Project>

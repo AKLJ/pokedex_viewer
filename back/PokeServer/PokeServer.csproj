@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>488d18c4-f60a-4de3-82a6-f5089b350cff</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.5" />
+    <PackageReference Include="MongoDB.Driver" Version="2.9.2" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.2-dev-00824" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PokeServer.App\PokeServer.App.csproj" />
+    <ProjectReference Include="..\PokeServer.Business\PokeServer.Business.csproj" />
+    <ProjectReference Include="..\PokeServer.Context\PokeServer.Context.csproj" />
+    <ProjectReference Include="..\PokeServer.Events\PokeServer.Events.csproj" />
+    <ProjectReference Include="..\PokeServer.Models\PokeServer.Models.csproj" />
+    <ProjectReference Include="..\PokeServer.PokeApi\PokeServer.PokeApi.csproj" />
+    <ProjectReference Include="..\PokeServer.Services\PokeServer.Services.csproj" />
+  </ItemGroup>
+
+</Project>

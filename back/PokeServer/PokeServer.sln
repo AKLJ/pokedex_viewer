@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeServer", "PokeServer.csproj", "{F6DF2823-281B-455D-BF1E-1D6E831C3F47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeServer.Models", "..\PokeServer.Models\PokeServer.Models.csproj", "{1BD951E9-E6E4-4875-9BC8-945A8EEB3B82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeServer.Services", "..\PokeServer.Services\PokeServer.Services.csproj", "{83D0ED9D-6B93-4A5A-88BE-8723553FEF9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeServer.Context", "..\PokeServer.Context\PokeServer.Context.csproj", "{1F28EDEC-2733-43D4-B3EE-AB91230C5090}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeServer.Utils", "..\PokeServer.Utils\PokeServer.Utils.csproj", "{372236E1-7B96-48AD-8D79-946BF99F7F1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeServer.PokeApi", "..\PokeServer.PokeApi\PokeServer.PokeApi.csproj", "{040189AA-CFCC-47A9-B2DD-C61DE19A67BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeServer.App", "..\PokeServer.App\PokeServer.App.csproj", "{41719459-3641-4461-BAD4-2A8784B03A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeServer.Events", "..\PokeServer.Events\PokeServer.Events.csproj", "{4DDC53CC-0308-4006-BB08-F24E7D79122A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{3368A71B-ED9B-4FDE-9C40-D469F8FF66B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{1A64A357-CEA1-4BDE-A554-46ABB600B249}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{5DFB99C4-B2A5-4B1D-B362-B2D6DDEE2F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeServer.Business", "..\PokeServer.Business\PokeServer.Business.csproj", "{60A1DADA-32C1-4025-A96D-05518D203DB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6DF2823-281B-455D-BF1E-1D6E831C3F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DF2823-281B-455D-BF1E-1D6E831C3F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DF2823-281B-455D-BF1E-1D6E831C3F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DF2823-281B-455D-BF1E-1D6E831C3F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD951E9-E6E4-4875-9BC8-945A8EEB3B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD951E9-E6E4-4875-9BC8-945A8EEB3B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD951E9-E6E4-4875-9BC8-945A8EEB3B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD951E9-E6E4-4875-9BC8-945A8EEB3B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D0ED9D-6B93-4A5A-88BE-8723553FEF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D0ED9D-6B93-4A5A-88BE-8723553FEF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D0ED9D-6B93-4A5A-88BE-8723553FEF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D0ED9D-6B93-4A5A-88BE-8723553FEF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F28EDEC-2733-43D4-B3EE-AB91230C5090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F28EDEC-2733-43D4-B3EE-AB91230C5090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F28EDEC-2733-43D4-B3EE-AB91230C5090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F28EDEC-2733-43D4-B3EE-AB91230C5090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372236E1-7B96-48AD-8D79-946BF99F7F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372236E1-7B96-48AD-8D79-946BF99F7F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372236E1-7B96-48AD-8D79-946BF99F7F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372236E1-7B96-48AD-8D79-946BF99F7F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040189AA-CFCC-47A9-B2DD-C61DE19A67BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040189AA-CFCC-47A9-B2DD-C61DE19A67BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040189AA-CFCC-47A9-B2DD-C61DE19A67BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040189AA-CFCC-47A9-B2DD-C61DE19A67BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41719459-3641-4461-BAD4-2A8784B03A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41719459-3641-4461-BAD4-2A8784B03A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41719459-3641-4461-BAD4-2A8784B03A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41719459-3641-4461-BAD4-2A8784B03A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDC53CC-0308-4006-BB08-F24E7D79122A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDC53CC-0308-4006-BB08-F24E7D79122A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDC53CC-0308-4006-BB08-F24E7D79122A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDC53CC-0308-4006-BB08-F24E7D79122A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A1DADA-32C1-4025-A96D-05518D203DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A1DADA-32C1-4025-A96D-05518D203DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A1DADA-32C1-4025-A96D-05518D203DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A1DADA-32C1-4025-A96D-05518D203DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BD951E9-E6E4-4875-9BC8-945A8EEB3B82} = {3368A71B-ED9B-4FDE-9C40-D469F8FF66B4}
+		{83D0ED9D-6B93-4A5A-88BE-8723553FEF9D} = {5DFB99C4-B2A5-4B1D-B362-B2D6DDEE2F3C}
+		{1F28EDEC-2733-43D4-B3EE-AB91230C5090} = {1A64A357-CEA1-4BDE-A554-46ABB600B249}
+		{040189AA-CFCC-47A9-B2DD-C61DE19A67BD} = {5DFB99C4-B2A5-4B1D-B362-B2D6DDEE2F3C}
+		{41719459-3641-4461-BAD4-2A8784B03A5F} = {1A64A357-CEA1-4BDE-A554-46ABB600B249}
+		{4DDC53CC-0308-4006-BB08-F24E7D79122A} = {3368A71B-ED9B-4FDE-9C40-D469F8FF66B4}
+		{60A1DADA-32C1-4025-A96D-05518D203DB3} = {3368A71B-ED9B-4FDE-9C40-D469F8FF66B4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3616A84C-DC5B-400B-913F-1BA31C37831B}
+	EndGlobalSection
+EndGlobal
